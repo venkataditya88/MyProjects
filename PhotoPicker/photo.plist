@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hair Style</key>
+	<dict>
+		<key>Bob Cut</key>
+		<string>Bob.jpg</string>
+		<key>Bouffant Style</key>
+		<string>Bouffant.jpg</string>
+		<key>Afro Style</key>
+		<string>Afro.jpg</string>
+	</dict>
+	<key>Indian Food</key>
+	<dict>
+		<key>delicious pani-puri</key>
+		<string>pani-puri.jpeg</string>
+		<key>oily kachori</key>
+		<string>kachori.jpeg</string>
+		<key>idli with chutney</key>
+		<string>Idli.jpeg</string>
+	</dict>
+	<key>Apple</key>
+	<dict>
+		<key>iMac</key>
+		<string>iMac.jpeg</string>
+		<key>iPad</key>
+		<string>iPad.jpeg</string>
+		<key>iPhone</key>
+		<string>iPhone.jpeg</string>
+		<key>MacBook Pro</key>
+		<string>macbook-pro.jpeg</string>
+	</dict>
+</dict>
+</plist>

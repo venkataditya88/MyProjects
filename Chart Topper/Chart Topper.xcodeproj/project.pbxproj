@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3521B8541706905C0026D93A /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3521B8531706905C0026D93A /* TFHpple.m */; };
+		3521B856170690E70026D93A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3521B855170690E70026D93A /* libxml2.dylib */; };
+		3521B8591706910C0026D93A /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3521B8581706910C0026D93A /* TFHppleElement.m */; };
+		3521B85C170691330026D93A /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3521B85B170691330026D93A /* XPathQuery.m */; };
+		3521BA0217069CB30026D93A /* DefaultArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 3521BA0117069CB30026D93A /* DefaultArtwork.png */; };
+		3521BA671710CCD70026D93A /* NetworkActivityTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3521BA661710CCD60026D93A /* NetworkActivityTracker.m */; };
+		3541B0601719222600C4A0DB /* Apps.png in Resources */ = {isa = PBXBuildFile; fileRef = 3541B0581719222600C4A0DB /* Apps.png */; };
+		3541B0611719222600C4A0DB /* Apps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3541B0591719222600C4A0DB /* Apps@2x.png */; };
+		3541B0621719222600C4A0DB /* Movies.png in Resources */ = {isa = PBXBuildFile; fileRef = 3541B05A1719222600C4A0DB /* Movies.png */; };
+		3541B0631719222600C4A0DB /* Movies@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3541B05B1719222600C4A0DB /* Movies@2x.png */; };
+		3541B0641719222600C4A0DB /* TVEpisodes.png in Resources */ = {isa = PBXBuildFile; fileRef = 3541B05C1719222600C4A0DB /* TVEpisodes.png */; };
+		3541B0651719222600C4A0DB /* TvEpisodes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3541B05D1719222600C4A0DB /* TvEpisodes@2x.png */; };
+		3541B0661719222600C4A0DB /* Books.png in Resources */ = {isa = PBXBuildFile; fileRef = 3541B05E1719222600C4A0DB /* Books.png */; };
+		3541B0671719222600C4A0DB /* Books@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3541B05F1719222600C4A0DB /* Books@2x.png */; };
+		3541B06A171922E700C4A0DB /* ItunesUCourses.png in Resources */ = {isa = PBXBuildFile; fileRef = 3541B068171922E700C4A0DB /* ItunesUCourses.png */; };
+		3541B06B171922E700C4A0DB /* ItunesUCourses@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3541B069171922E700C4A0DB /* ItunesUCourses@2x.png */; };
+		3541B06E1719232900C4A0DB /* Albums.png in Resources */ = {isa = PBXBuildFile; fileRef = 3541B06C1719232900C4A0DB /* Albums.png */; };
+		3541B06F1719232900C4A0DB /* Albums@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3541B06D1719232900C4A0DB /* Albums@2x.png */; };
+		3541B07117192BE500C4A0DB /* AppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3541B07017192BE500C4A0DB /* AppIcon@2x.png */; };
+		3541B07317192C3800C4A0DB /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3541B07217192C3800C4A0DB /* AppIcon.png */; };
+		35B74A2716F6AE420077D7DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B74A2616F6AE420077D7DB /* UIKit.framework */; };
+		35B74A2916F6AE420077D7DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B74A2816F6AE420077D7DB /* Foundation.framework */; };
+		35B74A2B16F6AE420077D7DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B74A2A16F6AE420077D7DB /* CoreGraphics.framework */; };
+		35B74A3116F6AE420077D7DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35B74A2F16F6AE420077D7DB /* InfoPlist.strings */; };
+		35B74A3316F6AE420077D7DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B74A3216F6AE420077D7DB /* main.m */; };
+		35B74A3716F6AE420077D7DB /* ItunesMediaItemsTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B74A3616F6AE420077D7DB /* ItunesMediaItemsTableAppDelegate.m */; };
+		35B74A3916F6AE420077D7DB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B74A3816F6AE420077D7DB /* Default.png */; };
+		35B74A3B16F6AE420077D7DB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B74A3A16F6AE420077D7DB /* Default@2x.png */; };
+		35B74A3D16F6AE420077D7DB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B74A3C16F6AE420077D7DB /* Default-568h@2x.png */; };
+		35B74A4016F6AE420077D7DB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B74A3E16F6AE420077D7DB /* MainStoryboard.storyboard */; };
+		35B74A4316F6AE420077D7DB /* ItunesMediaItemsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B74A4216F6AE420077D7DB /* ItunesMediaItemsTableViewController.m */; };
+		35B74A4B16F6AE9D0077D7DB /* IOSAppsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B74A4A16F6AE9D0077D7DB /* IOSAppsTableViewController.m */; };
+		35B74A4E16F6AEDA0077D7DB /* ItunesFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B74A4D16F6AEDA0077D7DB /* ItunesFetcher.m */; };
+		35B74A5116F6AEEF0077D7DB /* ItunesMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B74A5016F6AEEF0077D7DB /* ItunesMediaItem.m */; };
+		35B74A8716F6EB080077D7DB /* ItunesMediaItemsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B74A8616F6EB080077D7DB /* ItunesMediaItemsTableViewCell.m */; };
+		35B74A8D16F7C5DA0077D7DB /* ItunesMediaItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B74A8C16F7C5DA0077D7DB /* ItunesMediaItemDetailViewController.m */; };
+		35B74A9316FA85200077D7DB /* AlbumsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B74A9216FA85200077D7DB /* AlbumsTableViewController.m */; };
+		35B74A9616FA87610077D7DB /* MoviesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B74A9516FA87600077D7DB /* MoviesTableViewController.m */; };
+		35B74A9916FA88AC0077D7DB /* BooksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B74A9816FA88AC0077D7DB /* BooksTableViewController.m */; };
+		35B74A9C16FA89B80077D7DB /* TVEpisodesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B74A9B16FA89B70077D7DB /* TVEpisodesTableViewController.m */; };
+		35B74A9F16FA8A7E0077D7DB /* ItunesUCoursesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B74A9E16FA8A7E0077D7DB /* ItunesUCoursesTableViewController.m */; };
+		35C48E0A1719E97C00013834 /* FavouriteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C48E091719E97C00013834 /* FavouriteManager.m */; };
+		35F523371720EE6A00C50A19 /* FavoriteManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F523361720EE6A00C50A19 /* FavoriteManagerViewController.m */; };
+		35F523391722546700C50A19 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F523381722546700C50A19 /* star.png */; };
+		35F5233B1722547E00C50A19 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F5233A1722547E00C50A19 /* star@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3521B8521706905B0026D93A /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		3521B8531706905C0026D93A /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		3521B855170690E70026D93A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		3521B8571706910C0026D93A /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHppleElement.h; path = ../TFHppleElement.h; sourceTree = "<group>"; };
+		3521B8581706910C0026D93A /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHppleElement.m; path = ../TFHppleElement.m; sourceTree = "<group>"; };
+		3521B85A170691330026D93A /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = ../XPathQuery.h; sourceTree = "<group>"; };
+		3521B85B170691330026D93A /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = ../XPathQuery.m; sourceTree = "<group>"; };
+		3521BA0117069CB30026D93A /* DefaultArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DefaultArtwork.png; sourceTree = "<group>"; };
+		3521BA651710CCD50026D93A /* NetworkActivityTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkActivityTracker.h; sourceTree = "<group>"; };
+		3521BA661710CCD60026D93A /* NetworkActivityTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkActivityTracker.m; sourceTree = "<group>"; };
+		3541B0581719222600C4A0DB /* Apps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apps.png; sourceTree = "<group>"; };
+		3541B0591719222600C4A0DB /* Apps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apps@2x.png"; sourceTree = "<group>"; };
+		3541B05A1719222600C4A0DB /* Movies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Movies.png; sourceTree = "<group>"; };
+		3541B05B1719222600C4A0DB /* Movies@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Movies@2x.png"; sourceTree = "<group>"; };
+		3541B05C1719222600C4A0DB /* TVEpisodes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TVEpisodes.png; sourceTree = "<group>"; };
+		3541B05D1719222600C4A0DB /* TvEpisodes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TvEpisodes@2x.png"; sourceTree = "<group>"; };
+		3541B05E1719222600C4A0DB /* Books.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Books.png; sourceTree = "<group>"; };
+		3541B05F1719222600C4A0DB /* Books@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Books@2x.png"; sourceTree = "<group>"; };
+		3541B068171922E700C4A0DB /* ItunesUCourses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItunesUCourses.png; sourceTree = "<group>"; };
+		3541B069171922E700C4A0DB /* ItunesUCourses@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItunesUCourses@2x.png"; sourceTree = "<group>"; };
+		3541B06C1719232900C4A0DB /* Albums.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Albums.png; sourceTree = "<group>"; };
+		3541B06D1719232900C4A0DB /* Albums@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Albums@2x.png"; sourceTree = "<group>"; };
+		3541B07017192BE500C4A0DB /* AppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon@2x.png"; path = "../AppIcon@2x.png"; sourceTree = "<group>"; };
+		3541B07217192C3800C4A0DB /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon.png; path = ../AppIcon.png; sourceTree = "<group>"; };
+		35B74A2316F6AE420077D7DB /* Chart Topper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chart Topper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B74A2616F6AE420077D7DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35B74A2816F6AE420077D7DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35B74A2A16F6AE420077D7DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35B74A2E16F6AE420077D7DB /* Chart Topper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chart Topper-Info.plist"; sourceTree = "<group>"; };
+		35B74A3016F6AE420077D7DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35B74A3216F6AE420077D7DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35B74A3416F6AE420077D7DB /* Chart Topper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chart Topper-Prefix.pch"; sourceTree = "<group>"; };
+		35B74A3516F6AE420077D7DB /* ItunesMediaItemsTableAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItunesMediaItemsTableAppDelegate.h; sourceTree = "<group>"; };
+		35B74A3616F6AE420077D7DB /* ItunesMediaItemsTableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItunesMediaItemsTableAppDelegate.m; sourceTree = "<group>"; };
+		35B74A3816F6AE420077D7DB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		35B74A3A16F6AE420077D7DB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		35B74A3C16F6AE420077D7DB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		35B74A3F16F6AE420077D7DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		35B74A4116F6AE420077D7DB /* ItunesMediaItemsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItunesMediaItemsTableViewController.h; sourceTree = "<group>"; };
+		35B74A4216F6AE420077D7DB /* ItunesMediaItemsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItunesMediaItemsTableViewController.m; sourceTree = "<group>"; };
+		35B74A4916F6AE9D0077D7DB /* IOSAppsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSAppsTableViewController.h; sourceTree = "<group>"; };
+		35B74A4A16F6AE9D0077D7DB /* IOSAppsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSAppsTableViewController.m; sourceTree = "<group>"; };
+		35B74A4C16F6AEDA0077D7DB /* ItunesFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItunesFetcher.h; sourceTree = "<group>"; };
+		35B74A4D16F6AEDA0077D7DB /* ItunesFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItunesFetcher.m; sourceTree = "<group>"; };
+		35B74A4F16F6AEEF0077D7DB /* ItunesMediaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItunesMediaItem.h; sourceTree = "<group>"; };
+		35B74A5016F6AEEF0077D7DB /* ItunesMediaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItunesMediaItem.m; sourceTree = "<group>"; };
+		35B74A8516F6EB080077D7DB /* ItunesMediaItemsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItunesMediaItemsTableViewCell.h; sourceTree = "<group>"; };
+		35B74A8616F6EB080077D7DB /* ItunesMediaItemsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItunesMediaItemsTableViewCell.m; sourceTree = "<group>"; };
+		35B74A8B16F7C5DA0077D7DB /* ItunesMediaItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItunesMediaItemDetailViewController.h; sourceTree = "<group>"; };
+		35B74A8C16F7C5DA0077D7DB /* ItunesMediaItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItunesMediaItemDetailViewController.m; sourceTree = "<group>"; };
+		35B74A9116FA85200077D7DB /* AlbumsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumsTableViewController.h; sourceTree = "<group>"; };
+		35B74A9216FA85200077D7DB /* AlbumsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumsTableViewController.m; sourceTree = "<group>"; };
+		35B74A9416FA875F0077D7DB /* MoviesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesTableViewController.h; sourceTree = "<group>"; };
+		35B74A9516FA87600077D7DB /* MoviesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesTableViewController.m; sourceTree = "<group>"; };
+		35B74A9716FA88AB0077D7DB /* BooksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksTableViewController.h; sourceTree = "<group>"; };
+		35B74A9816FA88AC0077D7DB /* BooksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksTableViewController.m; sourceTree = "<group>"; };
+		35B74A9A16FA89B70077D7DB /* TVEpisodesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVEpisodesTableViewController.h; sourceTree = "<group>"; };
+		35B74A9B16FA89B70077D7DB /* TVEpisodesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVEpisodesTableViewController.m; sourceTree = "<group>"; };
+		35B74A9D16FA8A7E0077D7DB /* ItunesUCoursesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItunesUCoursesTableViewController.h; sourceTree = "<group>"; };
+		35B74A9E16FA8A7E0077D7DB /* ItunesUCoursesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItunesUCoursesTableViewController.m; sourceTree = "<group>"; };
+		35C48E081719E97C00013834 /* FavouriteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouriteManager.h; sourceTree = "<group>"; };
+		35C48E091719E97C00013834 /* FavouriteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouriteManager.m; sourceTree = "<group>"; };
+		35F523351720EE6A00C50A19 /* FavoriteManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteManagerViewController.h; sourceTree = "<group>"; };
+		35F523361720EE6A00C50A19 /* FavoriteManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteManagerViewController.m; sourceTree = "<group>"; };
+		35F523381722546700C50A19 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = "../../../../Downloads/Glyphish Pro/icons/star.png"; sourceTree = "<group>"; };
+		35F5233A1722547E00C50A19 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star@2x.png"; path = "../../../../Downloads/Glyphish Pro/icons/star@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35B74A2016F6AE420077D7DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3521B856170690E70026D93A /* libxml2.dylib in Frameworks */,
+				35B74A2716F6AE420077D7DB /* UIKit.framework in Frameworks */,
+				35B74A2916F6AE420077D7DB /* Foundation.framework in Frameworks */,
+				35B74A2B16F6AE420077D7DB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35B74A1A16F6AE420077D7DB = {
+			isa = PBXGroup;
+			children = (
+				35B74A2C16F6AE420077D7DB /* Chart Topper */,
+				35B74A2516F6AE420077D7DB /* Frameworks */,
+				35B74A2416F6AE420077D7DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35B74A2416F6AE420077D7DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35B74A2316F6AE420077D7DB /* Chart Topper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35B74A2516F6AE420077D7DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35B74A2616F6AE420077D7DB /* UIKit.framework */,
+				35B74A2816F6AE420077D7DB /* Foundation.framework */,
+				35B74A2A16F6AE420077D7DB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35B74A2C16F6AE420077D7DB /* Chart Topper */ = {
+			isa = PBXGroup;
+			children = (
+				35B74A8A16F6EB370077D7DB /* Controller */,
+				35B74A8816F6EB0E0077D7DB /* View */,
+				35B74A5216F6AEFB0077D7DB /* Model */,
+				35B74A3516F6AE420077D7DB /* ItunesMediaItemsTableAppDelegate.h */,
+				35B74A3616F6AE420077D7DB /* ItunesMediaItemsTableAppDelegate.m */,
+				3521B85A170691330026D93A /* XPathQuery.h */,
+				3521B85B170691330026D93A /* XPathQuery.m */,
+				3521B8571706910C0026D93A /* TFHppleElement.h */,
+				3521B8581706910C0026D93A /* TFHppleElement.m */,
+				3521B8521706905B0026D93A /* TFHpple.h */,
+				3521B855170690E70026D93A /* libxml2.dylib */,
+				3521B8531706905C0026D93A /* TFHpple.m */,
+				35B74A2D16F6AE420077D7DB /* Supporting Files */,
+			);
+			path = "Chart Topper";
+			sourceTree = "<group>";
+		};
+		35B74A2D16F6AE420077D7DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35F5233A1722547E00C50A19 /* star@2x.png */,
+				35F523381722546700C50A19 /* star.png */,
+				3541B06C1719232900C4A0DB /* Albums.png */,
+				3541B07217192C3800C4A0DB /* AppIcon.png */,
+				3541B07017192BE500C4A0DB /* AppIcon@2x.png */,
+				3541B06D1719232900C4A0DB /* Albums@2x.png */,
+				3541B068171922E700C4A0DB /* ItunesUCourses.png */,
+				3541B069171922E700C4A0DB /* ItunesUCourses@2x.png */,
+				3541B0581719222600C4A0DB /* Apps.png */,
+				3541B0591719222600C4A0DB /* Apps@2x.png */,
+				3541B05A1719222600C4A0DB /* Movies.png */,
+				3541B05B1719222600C4A0DB /* Movies@2x.png */,
+				3541B05C1719222600C4A0DB /* TVEpisodes.png */,
+				3541B05D1719222600C4A0DB /* TvEpisodes@2x.png */,
+				3541B05E1719222600C4A0DB /* Books.png */,
+				3541B05F1719222600C4A0DB /* Books@2x.png */,
+				3521BA0117069CB30026D93A /* DefaultArtwork.png */,
+				35B74A2E16F6AE420077D7DB /* Chart Topper-Info.plist */,
+				35B74A2F16F6AE420077D7DB /* InfoPlist.strings */,
+				35B74A3216F6AE420077D7DB /* main.m */,
+				35B74A3416F6AE420077D7DB /* Chart Topper-Prefix.pch */,
+				35B74A3816F6AE420077D7DB /* Default.png */,
+				35B74A3A16F6AE420077D7DB /* Default@2x.png */,
+				35B74A3C16F6AE420077D7DB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35B74A5216F6AEFB0077D7DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35B74A4C16F6AEDA0077D7DB /* ItunesFetcher.h */,
+				35C48E081719E97C00013834 /* FavouriteManager.h */,
+				35C48E091719E97C00013834 /* FavouriteManager.m */,
+				35B74A4D16F6AEDA0077D7DB /* ItunesFetcher.m */,
+				35B74A4F16F6AEEF0077D7DB /* ItunesMediaItem.h */,
+				35B74A5016F6AEEF0077D7DB /* ItunesMediaItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		35B74A8816F6EB0E0077D7DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				35B74A3E16F6AE420077D7DB /* MainStoryboard.storyboard */,
+				35B74A8516F6EB080077D7DB /* ItunesMediaItemsTableViewCell.h */,
+				35B74A8616F6EB080077D7DB /* ItunesMediaItemsTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		35B74A8A16F6EB370077D7DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35B74A4116F6AE420077D7DB /* ItunesMediaItemsTableViewController.h */,
+				35B74A4216F6AE420077D7DB /* ItunesMediaItemsTableViewController.m */,
+				35B74A8B16F7C5DA0077D7DB /* ItunesMediaItemDetailViewController.h */,
+				35B74A8C16F7C5DA0077D7DB /* ItunesMediaItemDetailViewController.m */,
+				35B74A4916F6AE9D0077D7DB /* IOSAppsTableViewController.h */,
+				35B74A4A16F6AE9D0077D7DB /* IOSAppsTableViewController.m */,
+				35B74A9116FA85200077D7DB /* AlbumsTableViewController.h */,
+				35B74A9216FA85200077D7DB /* AlbumsTableViewController.m */,
+				35B74A9416FA875F0077D7DB /* MoviesTableViewController.h */,
+				35B74A9516FA87600077D7DB /* MoviesTableViewController.m */,
+				35B74A9716FA88AB0077D7DB /* BooksTableViewController.h */,
+				35B74A9816FA88AC0077D7DB /* BooksTableViewController.m */,
+				35B74A9A16FA89B70077D7DB /* TVEpisodesTableViewController.h */,
+				35B74A9B16FA89B70077D7DB /* TVEpisodesTableViewController.m */,
+				35B74A9D16FA8A7E0077D7DB /* ItunesUCoursesTableViewController.h */,
+				35B74A9E16FA8A7E0077D7DB /* ItunesUCoursesTableViewController.m */,
+				3521BA651710CCD50026D93A /* NetworkActivityTracker.h */,
+				3521BA661710CCD60026D93A /* NetworkActivityTracker.m */,
+				35F523351720EE6A00C50A19 /* FavoriteManagerViewController.h */,
+				35F523361720EE6A00C50A19 /* FavoriteManagerViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35B74A2216F6AE420077D7DB /* Chart Topper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35B74A4616F6AE420077D7DB /* Build configuration list for PBXNativeTarget "Chart Topper" */;
+			buildPhases = (
+				35B74A1F16F6AE420077D7DB /* Sources */,
+				35B74A2016F6AE420077D7DB /* Frameworks */,
+				35B74A2116F6AE420077D7DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chart Topper";
+			productName = "Chart Topper";
+			productReference = 35B74A2316F6AE420077D7DB /* Chart Topper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35B74A1B16F6AE420077D7DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ItunesMediaItemsTable;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = CSUChico;
+			};
+			buildConfigurationList = 35B74A1E16F6AE420077D7DB /* Build configuration list for PBXProject "Chart Topper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 35B74A1A16F6AE420077D7DB;
+			productRefGroup = 35B74A2416F6AE420077D7DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35B74A2216F6AE420077D7DB /* Chart Topper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35B74A2116F6AE420077D7DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B74A3116F6AE420077D7DB /* InfoPlist.strings in Resources */,
+				35B74A3916F6AE420077D7DB /* Default.png in Resources */,
+				35B74A3B16F6AE420077D7DB /* Default@2x.png in Resources */,
+				35B74A3D16F6AE420077D7DB /* Default-568h@2x.png in Resources */,
+				35B74A4016F6AE420077D7DB /* MainStoryboard.storyboard in Resources */,
+				3521BA0217069CB30026D93A /* DefaultArtwork.png in Resources */,
+				3541B0601719222600C4A0DB /* Apps.png in Resources */,
+				3541B0611719222600C4A0DB /* Apps@2x.png in Resources */,
+				3541B0621719222600C4A0DB /* Movies.png in Resources */,
+				3541B0631719222600C4A0DB /* Movies@2x.png in Resources */,
+				3541B0641719222600C4A0DB /* TVEpisodes.png in Resources */,
+				3541B0651719222600C4A0DB /* TvEpisodes@2x.png in Resources */,
+				3541B0661719222600C4A0DB /* Books.png in Resources */,
+				3541B0671719222600C4A0DB /* Books@2x.png in Resources */,
+				3541B06A171922E700C4A0DB /* ItunesUCourses.png in Resources */,
+				3541B06B171922E700C4A0DB /* ItunesUCourses@2x.png in Resources */,
+				3541B06E1719232900C4A0DB /* Albums.png in Resources */,
+				3541B06F1719232900C4A0DB /* Albums@2x.png in Resources */,
+				3541B07117192BE500C4A0DB /* AppIcon@2x.png in Resources */,
+				3541B07317192C3800C4A0DB /* AppIcon.png in Resources */,
+				35F523391722546700C50A19 /* star.png in Resources */,
+				35F5233B1722547E00C50A19 /* star@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35B74A1F16F6AE420077D7DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B74A3316F6AE420077D7DB /* main.m in Sources */,
+				35B74A3716F6AE420077D7DB /* ItunesMediaItemsTableAppDelegate.m in Sources */,
+				35B74A4316F6AE420077D7DB /* ItunesMediaItemsTableViewController.m in Sources */,
+				35B74A4B16F6AE9D0077D7DB /* IOSAppsTableViewController.m in Sources */,
+				35B74A4E16F6AEDA0077D7DB /* ItunesFetcher.m in Sources */,
+				35B74A5116F6AEEF0077D7DB /* ItunesMediaItem.m in Sources */,
+				35B74A8716F6EB080077D7DB /* ItunesMediaItemsTableViewCell.m in Sources */,
+				35B74A8D16F7C5DA0077D7DB /* ItunesMediaItemDetailViewController.m in Sources */,
+				35B74A9316FA85200077D7DB /* AlbumsTableViewController.m in Sources */,
+				35B74A9616FA87610077D7DB /* MoviesTableViewController.m in Sources */,
+				35B74A9916FA88AC0077D7DB /* BooksTableViewController.m in Sources */,
+				35B74A9C16FA89B80077D7DB /* TVEpisodesTableViewController.m in Sources */,
+				35B74A9F16FA8A7E0077D7DB /* ItunesUCoursesTableViewController.m in Sources */,
+				3521B8541706905C0026D93A /* TFHpple.m in Sources */,
+				3521B8591706910C0026D93A /* TFHppleElement.m in Sources */,
+				3521B85C170691330026D93A /* XPathQuery.m in Sources */,
+				3521BA671710CCD70026D93A /* NetworkActivityTracker.m in Sources */,
+				35C48E0A1719E97C00013834 /* FavouriteManager.m in Sources */,
+				35F523371720EE6A00C50A19 /* FavoriteManagerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35B74A2F16F6AE420077D7DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35B74A3016F6AE420077D7DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35B74A3E16F6AE420077D7DB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35B74A3F16F6AE420077D7DB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35B74A4416F6AE420077D7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35B74A4516F6AE420077D7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35B74A4716F6AE420077D7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chart Topper/Chart Topper-Prefix.pch";
+				INFOPLIST_FILE = "Chart Topper/Chart Topper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35B74A4816F6AE420077D7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chart Topper/Chart Topper-Prefix.pch";
+				INFOPLIST_FILE = "Chart Topper/Chart Topper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35B74A1E16F6AE420077D7DB /* Build configuration list for PBXProject "Chart Topper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B74A4416F6AE420077D7DB /* Debug */,
+				35B74A4516F6AE420077D7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35B74A4616F6AE420077D7DB /* Build configuration list for PBXNativeTarget "Chart Topper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B74A4716F6AE420077D7DB /* Debug */,
+				35B74A4816F6AE420077D7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35B74A1B16F6AE420077D7DB /* Project object */;
+}
